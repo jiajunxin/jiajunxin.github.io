@@ -136,13 +136,23 @@ h1 {
 
 h2,
 h3 {
+	max-width: 90%;
+	width: 37em;
 	color: #527bbd;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
 	line-height: 1.0;
-	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
+	padding-top: 0.2em;
+	/* border-bottom: 1px solid #aaaaaa; */
+
+	/*
+	* Light Ice Blue: #e3f1fc
+	* Honeydew: #d4f1e1
+	* Grey: gainsboro
+	* Light Grey: #f0f0f0
+	*/
+	background-color: #e3f1fc;
 }
 
 h1 {
@@ -152,8 +162,9 @@ h1 {
 
 h2 {
 	font-family: Comic Sans MS;
-	padding-top: 0.8em;
+	/* padding-top: 0.8em; */
 	font-size: 125%;
+	padding-left: 0.5%;
 }
 
 h2+h3 {
