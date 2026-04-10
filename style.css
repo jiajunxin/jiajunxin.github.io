@@ -148,6 +148,10 @@ a:hover {
     margin-bottom: 2.5rem;
 }
 
+.publications-section {
+    margin-bottom: 0.5rem !important;
+}
+
 .section-title {
     font-size: 1.35rem;
     font-weight: 700;
@@ -172,8 +176,7 @@ a:hover {
 /* ── Publications ── */
 
 .pub-item {
-    padding: 1rem 0;
-    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 3%;
 }
 
 .pub-item:last-child {
@@ -220,23 +223,19 @@ a:hover {
 
 .pub-links a {
     font-size: 0.82rem;
-    padding: 2px 8px;
-    border: 1px solid #cbd5e1;
-    border-radius: 4px;
-    color: #475569;
+    padding-right: 1px;
     transition: all 0.15s;
 }
 
-.pub-links a:hover {
+/* .pub-links a:hover {
     background: #f1f5f9;
     border-color: #94a3b8;
     text-decoration: none;
-}
+} */
 
 /* ── Education ── */
 
 .edu-item {
-    padding: 0.75rem 0;
     border-left: 3px solid #e5e7eb;
     padding-left: 1rem;
     margin-bottom: 0.75rem;
@@ -274,7 +273,6 @@ a:hover {
 /* ── Experience ── */
 
 .exp-item {
-    padding: 0.75rem 0;
     border-left: 3px solid #e5e7eb;
     padding-left: 1rem;
     margin-bottom: 0.75rem;
